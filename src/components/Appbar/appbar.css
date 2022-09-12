@@ -1,0 +1,29 @@
+.bar{
+
+background-color: #2196f3 !important;
+
+}
+.image{
+ height: 50px;  
+  
+}
+
+.links>a{
+text-decoration: none;
+margin: 10px;
+text-transform: uppercase;
+color: wheat;
+}
+
+@media(max-width:600px){
+    .links>a{
+        text-decoration: none;
+        margin: 10px;
+        text-transform: uppercase;
+        color: crimson;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        }
+
+}
